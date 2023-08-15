@@ -1,7 +1,7 @@
 # Problem-Solving
 my solutions for some Codeforces problems 
 
-<img src="/PS/Assest/ICPC.PNG" style="margin-left:20px;width:100%;height:100px"/>
+<img src="[/PS/Assest/ICPC.PNG](https://i.postimg.cc/3J34c61P/Whats-App-Image-2023-08-15-at-4-22-51-AM.jpg)" style="margin-left:20px;width:100%;height:100px"/>
 <ol>
  <li><a href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet #1 (Data type - Conditions).</a></li>
  <li><a href="https://codeforces.com/group/MWSDmqGsZm/contest/326175">Contest #1.</a></li>
