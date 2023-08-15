@@ -1,7 +1,5 @@
 # Problem-Solving
-my solutions for some Codeforces problems 
-![image](https://i.postimg.cc/3J34c61P/Whats-App-Image-2023-08-15-at-4-22-51-AM.jpg)
-
+My solutions for some Codeforces problems.
 
 <ol>
  <li><a href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet #1 (Data type - Conditions).</a></li>
@@ -15,3 +13,4 @@ my solutions for some Codeforces problems
  <li><a href="https://codeforces.com/group/MWSDmqGsZm/contest/223339">Sheet #7 (Recursions)</a></li>
 </ol>
 
+![image](https://i.postimg.cc/3J34c61P/Whats-App-Image-2023-08-15-at-4-22-51-AM.jpg)
