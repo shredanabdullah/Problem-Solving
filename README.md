@@ -1,6 +1,8 @@
 # Problem-Solving
 my solutions for some Codeforces problems 
-![image]([https://i.postimg.cc/tJGKJX5h/Whats-App-Image-2023-06-29-at-3-48-24-AM.jpg](https://i.postimg.cc/3J34c61P/Whats-App-Image-2023-08-15-at-4-22-51-AM.jpg))
+![image]([https://i.postimg.cc/tJGKJX5h/Whats-App-Image-2023-06-29-at-3-48-24-AM.jpg](https://i.postimg.cc/3J34c61P/Whats-App-Image-2023-08-15-at-4-22-51-AM.jpg)
+
+
 <ol>
  <li><a href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet #1 (Data type - Conditions).</a></li>
  <li><a href="https://codeforces.com/group/MWSDmqGsZm/contest/326175">Contest #1.</a></li>
