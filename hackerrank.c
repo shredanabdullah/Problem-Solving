@@ -75,3 +75,99 @@ void staircase(int n) {
         printf("\n");
     }
 }
+/*
+Given a square matrix, calculate the absolute difference between the sums of its diagonals.
+
+For example, the square matrix  is shown below:
+Sample Input
+
+3
+11 2 4
+4 5 6
+10 8 -12
+Sample Output
+
+15
+Explanation
+
+The primary diagonal is:
+
+11
+   5
+     -12
+Sum across the primary diagonal: 11 + 5 - 12 = 4
+
+The secondary diagonal is:
+
+     4
+   5
+10
+Sum across the secondary diagonal: 4 + 5 + 10 = 19
+Difference: |4 - 19| = 15
+*/
+
+
+int diagonalDifference(int arr_rows, int arr_columns, int** arr) {
+    int sum1=0, sum2=0, difference=0, temp=0;
+    temp=arr_rows-1;
+    for (int i = 0; i < arr_rows; i++) {
+            for (int j = 0; j < arr_rows; j++) {
+                if (i==j) {
+                    sum1+=arr[i][j];
+                }
+                if (j==temp) {
+                     sum2+=arr[i][j];
+                     temp--;
+                }  
+            }
+        }
+    difference=abs(sum1-sum2);
+      return difference;  
+}
+/*
+Function Description
+
+Complete the timeConversion function in the editor below. It should return a new string representing the input time in 24 hour format.
+
+timeConversion has the following parameter(s):
+
+string s: a time in  hour format
+Returns
+
+string: the time in  hour format
+Input Format
+
+A single string  that represents a time in -hour clock format (i.e.:  or ).
+
+Constraints
+
+All input times are valid
+Sample Input 0
+
+07:05:45PM
+Sample Output 0
+
+19:05:45
+*/
+char* timeConversion(char* s) {
+    int hour, minute, second;
+    char am_pm[3];
+
+    // Parse the input time string
+    sscanf(s, "%d:%d:%d%s", &hour, &minute, &second, am_pm);
+
+    // Adjust hour if necessary
+    if (strcmp(am_pm, "PM") == 0 && hour != 12) {
+        hour += 12;
+    } else if (strcmp(am_pm, "AM") == 0 && hour == 12) {
+        hour = 0;
+    }
+
+    // Allocate memory for the result string
+    char* result = (char*)malloc(9 * sizeof(char)); // HH:MM:SS + null terminator
+
+    // Format the time in 24-hour format
+    sprintf(result, "%02d:%02d:%02d", hour, minute, second);
+
+    return result;
+}
