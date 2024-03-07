@@ -7,5 +7,5 @@ int readString(char *str){
     i++;
   }
   str[i]='\0';
-  return i;
+  return i;// Return the length of the string (excluding the null terminator)
 }
